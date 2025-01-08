@@ -1,0 +1,17 @@
+package chapter03;
+
+// 에러 : 주로 프로그램에서 복구할 수 없는 심각한 문제
+// 자원 부족이 큰 원인을 차지
+// 개발자가 대처할 수 없는 수준
+
+// - 컴파일 에러 : 소스 코드에 문법을 준수하지 않았을 때 발생
+
+
+public class A_ErrorAndException {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

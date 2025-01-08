@@ -1,0 +1,42 @@
+package chapter03;
+
+import java.util.ArrayList;
+import java.util.List;
+
+// 제너릭 : 클래스나 메서드에서 사용할 데이터 타입을 외부에서 지정하는 방법
+
+// 아래의 경우는 코드중복=유지보수성을 떨어뜨리고 개발속도도 떨어뜨리는 상태.
+// 실사용의 불편. 사용 시 코드가 복잡해짐.
+class Test1 {
+	String subject;
+	int score;
+}
+
+// 과목 점수를 더 세밀하게 따지는 경우.
+class Test2 {
+	String subject;
+	double score;
+}
+
+// 숫자가 아니라 등급으로 점수를 매기는 경우.
+class Test3{
+	String subject;
+	char score;
+}
+
+class Test4{
+	String subject;
+	Object score;
+}
+
+public class F_Generic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<Test4> tests = new ArrayList<Test4>();
+		Test4 test1 = new Test4();
+
+	}
+
+}

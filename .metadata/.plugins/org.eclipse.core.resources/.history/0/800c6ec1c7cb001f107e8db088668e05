@@ -1,0 +1,13 @@
+package chapter03;
+
+// 에러 : 주로 프로그램에서 복구할 수 없는 심각한 문제
+// 자원 부족이 큰 원인
+
+public class A_ErrorAndException {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

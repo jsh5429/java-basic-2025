@@ -1,0 +1,23 @@
+package chapter03;
+
+import java.util.Random;
+
+public class E_Package4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Random 클래스 : 난수를 생성하는 클래스
+		Random random = new Random();
+		System.out.println(random.nextInt());
+		// 범위 제약 0~4사이의 값
+		System.out.println(random.nextInt(5));
+		// 사잇값을 구하는 코드 5~9
+		System.out.println(random.nextInt(5, 10));
+		
+		// SEED 지정
+		
+		// UUID : 128의 고유 식별자 ()
+
+	}
+
+}

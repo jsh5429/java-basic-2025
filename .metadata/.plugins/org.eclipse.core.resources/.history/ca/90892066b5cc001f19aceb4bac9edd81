@@ -1,0 +1,12 @@
+package chapter03;
+
+// 열거형(Enum)
+
+public class G_Enum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
